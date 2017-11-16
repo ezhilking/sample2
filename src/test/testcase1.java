@@ -11,6 +11,8 @@ public class testcase1 {
 		WebDriver e = new FirefoxDriver();
 		e.get("http://www.seleniumhq.org/download/");
 		WebElement Editbox = e.findElement(By.xpath("html/body/div[3]/div[1]/form/div/input[3]"));
+		
+		
 		//		Editbox.
 	}
 
